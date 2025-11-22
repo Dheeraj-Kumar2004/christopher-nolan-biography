@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <center>
+        <form action="./login.html" method="post">
+        <input type="text" name="username" placeholder="Enter name" required /> 
+        <br>
+        <input type="email" name="email" placeholder="Enter email" required />
+        <br>
+        <input type="password" name="password" placeholder="Enter password" required />
+        <br>
+        <input type="password" name="confirmPassword" placeholder="Confirm password" required />
+        <br>
+        <input type="radio" name="gender" value="male" required /> Male 
+        <input type="radio" name="gender" value="female" required /> Female
+        <br>
+        <select name="city" required>
+            <option value="">Select your city</option>
+            <option value="vijayawada">Vijayawada</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="vizag">Vizag</option>
+        </select>
+        <br>
+        <input type="date" name="dob" required />
+        <br>
+        <input type="file" name="profilePic" accept="image/*" />
+        <br>
+        <input type="checkbox" name="qualification" value="10th" /> 10th
+        <input type="checkbox" name="qualification" value="inter" /> Inter
+        <input type="checkbox" name="qualification" value="diploma" /> Diploma
+        <input type="checkbox" name="qualification" value="btech" /> B.Tech
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    </center>
+</body>
+</html>
